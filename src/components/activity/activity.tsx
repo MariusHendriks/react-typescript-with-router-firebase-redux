@@ -11,7 +11,6 @@ interface Props {
 }
 
 const Activity: React.FC<Props> = ({ activity, link }) => {
-  console.log("activity :", activity);
   const [safeDelete, setSafeDelete] = useState<boolean>(false);
   const [redirect, setRedirect] = useState<boolean>(false);
 

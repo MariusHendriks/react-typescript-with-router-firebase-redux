@@ -8,8 +8,8 @@ interface Props {
 }
 
 const SignIn: React.FC<Props> = ({ authError }) => {
-  const [email, setEmail] = useState<string>("test@test.nl");
-  const [password, setPassword] = useState<string>("testtest");
+  const [email, setEmail] = useState<string>("");
+  const [password, setPassword] = useState<string>("");
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
