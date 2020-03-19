@@ -3,8 +3,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## How to use
 
 1. Clone the repository <br />
-2. Make a file called 'fbConfig.js' in the /src/config/ map.<br />
-3. Paste your firebase database stuff in there, and make sure to add this file to the .gitignore <br />
+2. Type `yarn` in your console
+3. Edit the file called 'fbConfig.js' in the /src/config/ map<br />
+4. Paste your firebase database stuff in there, and make sure to add this file to the .gitignore <br />
+5. Make sure you have email & password login enabled at your Authentication in your firebase project<br />
+6. Make sure you have your rules set to develop ON BOTH CLOUD FIRESTORE AND THE REALTIME DATABASE ( allow read, write ) (this is a bug that has to be fixed...)<br />
+7. Type `yarn start` in your console <br />
 
 ### Example fbConfig.js file
 
